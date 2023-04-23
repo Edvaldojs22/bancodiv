@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: linear-gradient(to bottom, rgb(18, 26, 17),  rgb(92, 117, 87),  rgb(18, 26, 17));
+    background-color:white;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,31 +18,21 @@ header {
     width: 100%;
     height: 100px;
     background-color: #000000;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
+    font-size: 40px;
     font-weight: 1000;
-    margin-left: 100px;
-    padding-top: 20px;
-    color: rgb(0, 255, 21);
+    color: rgb(92, 2, 167);
 }
 
-h1,
-.div {
-    font-size: 30px;
-    font-weight: 100;
-}
-
-.div {
-    color: #ffffff;
-    margin-left: 200px;
-
-}
 
 .login {
     font-size: 50px;
-    color: rgb(26, 251, 6);
+    color: rgb(92, 2, 167);
     text-align: center;
     padding: 30px 0 20px 0;
     font-weight: bold;
@@ -57,7 +47,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #0e240e;
+    background-color:rgb(22, 1, 27);
     width: calc(100% - 30px);
     border-radius: 30px;
     margin: 10px 0;
@@ -82,31 +72,42 @@ input {
 
 .recupera {
     font-size: 11px;
-    color: rgb(243, 243, 243);
+    color: rgb(92, 2, 167);
     display: flex;
     justify-content: end;
     padding: 5px 10px 0 0; 
 }
+
 a{
-    color: rgb(3, 77, 236);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .botoes{
-   display: inline-block;
-   text-align: center;
+ display: flex;
+ flex-direction: column;
+}
+
+.botao-cadastro{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 10px 230px; 
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: rgb(252, 252, 252);
 }
 
 .botao-logi {
     width: 150px;
     height: 50px;
-    margin: 30px auto;
-    color: #1eff00;
+    margin:  30px auto 10px;
+    color: rgb(92, 2, 167);
     background-color: black;
     border: none;
     border-radius: 15px;
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 25px;
+    font-weight: 600;
     transition: 0.5s;
     transition: transforma 1s;
     box-shadow: 2px 3px rgb(0, 0, 0);
@@ -114,7 +115,7 @@ a{
 
 button:hover {
     transform: scale(1.2);
-    background-color: rgb(43, 255, 0);
+    background-color: rgb(92, 2, 167);
     color: black;
 }
 
@@ -128,5 +129,5 @@ footer {
 .copy {
     color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
