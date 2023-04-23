@@ -5,13 +5,14 @@
 }
 
 
+
+
 body {
-    background-color:white;
+    max-width: 400px;
+    background-color: rgb(102, 102, 102);
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
 }
 
 header {
@@ -46,11 +47,10 @@ section {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color:rgb(22, 1, 27);
-    width: calc(100% - 30px);
+    background-color: rgb(22, 1, 27);
+    width: calc(100% - 10px);
     border-radius: 30px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 
@@ -75,23 +75,23 @@ input {
     color: rgb(92, 2, 167);
     display: flex;
     justify-content: end;
-    padding: 5px 10px 0 0; 
+    padding: 5px 10px 0 0;
 }
 
-a{
+a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.botoes{
- display: flex;
- flex-direction: column;
+.botoes {
+    display: flex;
+    flex-direction: column;
 }
 
-.botao-cadastro{
+.botao-cadastro {
     width: 100px;
     height: 30px;
-    margin: 10px 0 10px 230px; 
+    margin: 10px 0 10px 230px;
     border-radius: 10px;
     border: none;
     background-color: black;
@@ -101,15 +101,14 @@ a{
 .botao-logi {
     width: 150px;
     height: 50px;
-    margin:  30px auto 10px;
+    margin: 30px auto 10px;
     color: rgb(92, 2, 167);
     background-color: black;
     border: none;
     border-radius: 15px;
     font-size: 25px;
     font-weight: 600;
-    transition: 0.5s;
-    transition: transforma 1s;
+    transition: transform 0.1s;
     box-shadow: 2px 3px rgb(0, 0, 0);
 }
 
