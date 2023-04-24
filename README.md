@@ -1,3 +1,0 @@
-# bancodiv
-
-> Projeto em andamento🧐
